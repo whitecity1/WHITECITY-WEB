@@ -1,0 +1,31 @@
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px');
+body {
+  font-family: "Slabo 27px", serif;
+}
+h2 {
+  text-align: center;
+}
+[data-flex] {
+  display: flex;
+  width: 80%;
+  max-width: 800px;
+  font-size: 1.2rem;
+  margin: 0 auto;
+  line-height: 1.5;
+}
+[data-flex] > img {
+  margin-right: 2rem;
+  width: 30%;
+}
+[data-center] {
+  align-items: center;
+}
+[data-flex] div, [data-flex] p {
+  flex: 1;
+}
+[data-flex] div {
+  margin-right: 2rem;
+}
+[data-flex] div img {
+  width: 100%;
+}
